@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rodar+ - Protótipo</title>
+  <title>AcessiMobil - Protótipo</title>
   
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
@@ -162,7 +162,7 @@
 
     <div id="login-screen" class="screen active">
       <div class="auth-container">
-        <h1>Rodar+</h1> 
+        <h1>AcessiMobil</h1> 
         <p style="color: #6c757d; margin-top: -5px; margin-bottom: 40px;">Seu app de mobilidade.</p> 
         <h2 class="subtitle">Acesse sua Conta</h2> 
         <form id="login-form">
@@ -177,7 +177,7 @@
     
     <div id="signup-screen" class="screen">
       <div class="auth-container">
-        <h1>Rodar+</h1> 
+        <h1>AcessiMobil</h1> 
         <h2 class="subtitle">Crie sua Conta</h2> 
         <form id="signup-form">
           <div class="form-group"><input type="text" name="name" placeholder="Nome Completo" required></div>
@@ -195,7 +195,7 @@
         <div class="auth-container">
             <div class="success-icon">✓</div>
             <h2 class="subtitle">Conta Criada com Sucesso!</h2>
-            <p style="color: #6c757d;">Agora você pode fazer o login para começar a usar o Rodar+.</p>
+            <p style="color: #6c757d;">Agora você pode fazer o login para começar a usar o AcessiMobil.</p>
             <button id="go-to-login-btn" class="btn">Ir para o Login</button>
         </div>
     </div>
@@ -276,7 +276,7 @@
                     <li class="payment-option selected" data-payment="Dinheiro"><svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="7" y="9" width="14" height="10" rx="2" /><circle cx="14" cy="14" r="2" /><path d="M17 9v-2a2 2 0 0 0 -2 -2h-10a2 2 0 0 0 -2 2v6a2 2 0 0 0 2 2h2" /></svg> Dinheiro</li>
                     <li class="payment-option" data-payment="Pix"><svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M10.5 12h3" /><path d="M12 10.5v3" /><path d="M10.153 10.153l3.694 3.694" /><path d="M10.153 13.847l3.694 -3.694" /></svg> Pix</li>
                     <li class="payment-option" data-payment="Cartão de Crédito/Débito"><svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="3" /><line x1="3" y1="10" x2="21" y2="10" /><line x1="7" y1="15" x2="7.01" y2="15" /><line x1="11" y1="15" x2="13" y2="15" /></svg> Cartão</li>
-                    <li class="payment-option" data-payment="Carteira Roda+"><svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12" /><path d="M20 12v4" /><path d="M13 15v.01" /></svg> Carteira Roda+</li>
+                    <li class="payment-option" data-payment="Carteira AcessiMobil"><svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12" /><path d="M20 12v4" /><path d="M13 15v.01" /></svg> Carteira AcessiMobil</li>
                 </ul>
                 <button id="confirm-ride-btn" class="btn">Confirmar Corrida</button>
             </div>
@@ -311,7 +311,7 @@
             <div class="profile-section">
                 <h3>Carteira</h3>
                 <div class="info-row">
-                    <span>Saldo Rodar+</span>
+                    <span>Saldo AcessiMobil</span>
                     <span style="font-weight: bold;">R$ 0,00</span>
                 </div>
             </div>
@@ -337,10 +337,10 @@
             </details>
             <details>
                 <summary>Quais são as formas de pagamento?</summary>
-                <p>Aceitamos Dinheiro, Pix, Cartão de Crédito/Débito e o saldo da sua Carteira Rodar+.</p>
+                <p>Aceitamos Dinheiro, Pix, Cartão de Crédito/Débito e o saldo da sua Carteira AcessiMobil.</p>
             </details>
              <details>
-                <summary>O que é o Rodar+ Assistência?</summary>
+                <summary>O que é o AcessiMobil Assistência?</summary>
                 <p>É uma categoria especial onde o motorista parceiro possui treinamento para auxiliar passageiros com diferentes necessidades, oferecendo um serviço porta a porta com mais cuidado e atenção.</p>
             </details>
         </div>
@@ -610,10 +610,10 @@
     function showRideOptions(distanceInKm) {
         rideOptionsContainer.innerHTML = '';
         const vehicleTypes = [
-            { name: 'Rodar+ Comum', description: 'Viagens do dia a dia', baseFare: 4.50, perKm: 1.90, icon: `<svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="7" cy="17" r="2" /><circle cx="17" cy="17" r="2" /><path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" /></svg>` },
-            { name: 'Rodar+ Amplo', description: 'Mais espaço para você', baseFare: 5.50, perKm: 2.10, icon: `<svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" /></svg>` },
-            { name: 'Rodar+ Adaptado', description: 'Com rampa de acesso', baseFare: 8.00, perKm: 2.50, icon: `<svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="7" cy="17" r="2" /><circle cx="17" cy="17" r="2" /><path d="M5 17h-2v-4.5a2.5 2.5 0 0 1 2.5 -2.5h1.5" /><path d="M12 17v-12h7v12" /><path d="M12 8h4" /><path d="M12 12h4" /><path d="M12 17h-5" /></svg>` },
-            { name: 'Rodar+ Assistência', description: 'Motorista com treinamento especial', baseFare: 10.00, perKm: 2.80, icon: `<svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M17 11l4 4l-4 4" /><path d="M7 11l-4 4l4 4" /></svg>` }
+            { name: 'AcessiMobil Comum', description: 'Viagens do dia a dia', baseFare: 4.50, perKm: 1.90, icon: `<svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="7" cy="17" r="2" /><circle cx="17" cy="17" r="2" /><path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" /></svg>` },
+            { name: 'AcessiMobil Amplo', description: 'Mais espaço para você', baseFare: 5.50, perKm: 2.10, icon: `<svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5" /></svg>` },
+            { name: 'AcessiMobil Adaptado', description: 'Com rampa de acesso', baseFare: 8.00, perKm: 2.50, icon: `<svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="7" cy="17" r="2" /><circle cx="17" cy="17" r="2" /><path d="M5 17h-2v-4.5a2.5 2.5 0 0 1 2.5 -2.5h1.5" /><path d="M12 17v-12h7v12" /><path d="M12 8h4" /><path d="M12 12h4" /><path d="M12 17h-5" /></svg>` },
+            { name: 'AcessiMobil Assistência', description: 'Motorista com treinamento especial', baseFare: 10.00, perKm: 2.80, icon: `<svg class="icon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /><path d="M17 11l4 4l-4 4" /><path d="M7 11l-4 4l4 4" /></svg>` }
         ];
         
         let content = '<h4 class="ride-options-title">Escolha uma viagem</h4>';
